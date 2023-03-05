@@ -41,24 +41,11 @@ const Footer = props => {
     
             <div className={styles.footerInfo}>
               <div className={styles.infoLeft}>
-                <p>This page was built by Gianluca Jahn with React.</p>
-                <p>Portions of this page are inspired by <span>RAWG, RAWG.io</span>. This page was built solely for educational purposes.</p>
-              </div>
-              <div className={styles.infoRight}>
-                <img className={styles.google} src={require("../../Resources/image/googleplaybadge.png")} alt="Google Play Badge" />
-                <AppStore className={styles.apple} />
+                <p>This page was built by Diyansh Ojha with React.</p>
               </div>
             </div>
     
             <div className={styles.footerEnd}>
-              <div className={styles.endLeft}>
-                <h4>Privacy</h4>
-                <h4>Security</h4>
-                <h4>Cookies</h4>
-                <h4>Legal</h4>
-                <h4>Collaborative Guidelines</h4>
-              </div>
-    
               <div className={styles.endRight}>
                 <img className={styles.social} src={require("../../Resources/image/twitter.png")} alt="Twitter Logo" />
                 <img className={styles.social} src={require("../../Resources/image/instagram.png")} alt="Instagram Logo" />
