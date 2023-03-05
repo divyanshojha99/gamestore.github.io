@@ -180,7 +180,7 @@ const handleSelect = (e) => {
 const handleSelectGame = (e) => {
   if (e.target.tagName === "BUTTON") {
     return
-  } else if (e.target.classList[0] != "AddToCart_addToCart__zbJPe") {
+  } else if (e.target.classList[0] != "AddToCart_AddToCart__zbJPe") {
         setSelectedGame(games[e.target.parentNode.id]);
         navigate(`/react-ecommerce-store/games/${games[e.target.parentNode.id].surname}`);
   }
